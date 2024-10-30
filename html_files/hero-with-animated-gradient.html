@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section with Animated Gradient Background</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .animated-gradient {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-gradient min-h-screen flex items-center justify-center">
+        <div class="text-center text-white p-8">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Welcome to the Future</h1>
+            <p class="text-xl md:text-2xl mb-8">Experience the power of innovation and creativity</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#" class="bg-white text-purple-700 hover:bg-gray-100 font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                    Get Started
+                </a>
+                <a href="#" class="bg-transparent hover:bg-white hover:text-purple-700 text-white font-bold py-3 px-6 rounded-full border-2 border-white transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
