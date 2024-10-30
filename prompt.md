@@ -1,4 +1,4 @@
-Your task is to desing a UI kit in pure html with tailwind css, in order to make the task of designing pages easier. What you're going to do is this: 
+We're in a mission to make a UI kit with tailwind css for ONLY pure html. This UI library will be used in projects were we can't use JSX, such as Python's Jinja or Ruby's ERB. So it is important to provide all beautiful, modern, minimalistic and sleek components to pure html. Remember to generate only pure html with the following details.
 
 - Generate a component 
 - Put the component (a preview of) next to a code block (the code block must be copiable)
