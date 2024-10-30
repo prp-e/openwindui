@@ -1,5 +1,7 @@
 # OpenWindUI
 
+## Code snippets
+
 ## Files
 
 1. basic-navbar.html
