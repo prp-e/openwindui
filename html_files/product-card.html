@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="relative">
+            <img class="w-full h-64 object-cover" src="https://source.unsplash.com/random/400x300?product" alt="Product image">
+            <div class="absolute top-0 right-0 bg-red-500 text-white px-2 py-1 m-2 rounded-md text-sm font-bold">SALE</div>
+        </div>
+        <div class="p-6">
+            <h2 class="font-bold text-xl mb-2">Awesome Product</h2>
+            <p class="text-gray-700 text-base mb-4">This is a description of the awesome product. It's really great, you should buy it!</p>
+            <div class="flex items-center justify-between">
+                <span class="text-3xl font-bold text-gray-900">$99.99</span>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
